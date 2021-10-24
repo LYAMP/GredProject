@@ -10,6 +10,14 @@
 	<!-- 设定本项目所打包的格式是 pom -->
 	<packaging>pom</packaging>
 
+	<!-- 配置使用 Spring Boot Starter Parent 作为项目的父级依赖 [BEGIN]-->
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.3.12.RELEASE</version>
+	</parent>
+	<!-- 配置使用 Spring Boot Starter Parent 作为项目的父级依赖 [END]-->
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -19,14 +27,6 @@
 		<pagehelper-spring-boot-starter.version>1.4.0</pagehelper-spring-boot-starter.version>
 		<java-jwt.version>3.18.2</java-jwt.version>
 	</properties>
-
-	<!-- 配置使用 Spring Boot Starter Parent 作为项目的父级依赖 [BEGIN]-->
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.3.12.RELEASE</version>
-	</parent>
-	<!-- 配置使用 Spring Boot Starter Parent 作为项目的父级依赖 [END]-->
 
 	<dependencies>
 		<!-- 配置 Spring Boot Starter Web 依赖 [BEGIN] -->
