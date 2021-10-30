@@ -22,10 +22,11 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<MyBatis-Spring-Boot-Starter.version>2.2.0</MyBatis-Spring-Boot-Starter.version>
+		<mybatis-spring-boot-starter.version>2.2.0</mybatis-spring-boot-starter.version>
 		<druid-spring-boot-starter.version>1.2.8</druid-spring-boot-starter.version>
 		<pagehelper-spring-boot-starter.version>1.4.0</pagehelper-spring-boot-starter.version>
 		<java-jwt.version>3.18.2</java-jwt.version>
+		<springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
 	</properties>
 
 	<dependencies>
